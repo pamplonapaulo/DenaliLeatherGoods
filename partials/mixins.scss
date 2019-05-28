@@ -1,0 +1,32 @@
+
+
+@mixin box-shadow ($shadows) {
+    -webkit-box-shadow: $shadows;
+    -moz-box-shadow: $shadows;
+    -ms-box-shadow: $shadows;
+    -o-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+
+@mixin transform ($transforms) {
+    -webkit-transform: $transforms;
+    -moz-transform: $transforms;
+    -ms-transform: $transforms;
+    -o-transform: $transforms;
+    transform: $transforms;
+}
+
+@mixin transform-origin ($transforms-origin) {
+    -webkit-transform-origin: $transforms-origin;
+    -moz-transform-origin: $transforms-origin;
+    -ms-transform-origin: $transforms-origin;
+    -o-transform-origin: $transforms-origin;
+    transform-origin: $transforms-origin;
+}
+@mixin transition ($transitions) {
+    -webkit-transition: $transitions;
+    -moz-transition: $transitions;
+    -ms-transition: $transitions;
+    -o-transition: $transitions;
+    transition: $transitions;
+}

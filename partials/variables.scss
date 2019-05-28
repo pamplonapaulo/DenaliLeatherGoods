@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+// colors
+$white: #ffffff;
+$black: #0a0a0a;
+
+//fonts
+$bannerTitle: 'BlancoTrialBold', 'Playfair Display', serif;
+$bannerSubtitle: 'Overpass', sans-serif;
+$DINRegularAlternate: 'Barlow', sans-serif;
+
+@font-face {
+    font-family: BlancoTrialBold;
+    src: url("../fonts/BlancoTrial-Bold.otf") format("opentype");
+}
+
