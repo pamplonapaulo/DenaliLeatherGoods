@@ -1,0 +1,33 @@
+@import '../partials/partials-header';
+
+.hero {
+    
+    &.has-background {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    &-background {
+        
+        position: absolute;
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .hero-body {
+
+        h1 {
+            font-family: $bannerTitle;
+            font-weight: 900;
+            font-size: 3.8rem;
+        }
+
+        h3 {
+            font-family: $bannerSubtitle;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Overpass:400,700&display=swap");
+@font-face {
+  font-family: BlancoTrialBold;
+  src: url("../fonts/BlancoTrial-Bold.otf") format("opentype"); }
+.input::-webkit-input-placeholder {
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  padding-left: 15px; }
+
+.input::placeholder {
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  padding-left: 15px; }
+
+.input:-ms-input-placeholder {
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  padding-left: 15px; }
+
+.input::-ms-input-placeholder {
+  background: #0a0a0a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  padding-left: 15px; }
+
+input.input {
+  min-height: 60px;
+  color: #ffffff;
+  font-size: 0.8rem !important;
+  letter-spacing: 1.5px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 15px; }
+  input.input:focus::placeholder {
+    color: transparent; }
+
+.control.has-icons-right .input {
+  padding-right: 3.3em; }
+
+.copyright {
+  margin-top: 7rem; }
+
+footer.footer .column .columns .column.is-half .columns {
+  display: inline-flex; }
+
+/*# sourceMappingURL=footer.css.map */

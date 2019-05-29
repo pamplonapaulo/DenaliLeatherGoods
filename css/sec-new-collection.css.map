@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACQ,2FAAmF;ACW3F,UAGC;EAFG,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,uDAAuD;ACF7D,yCAAuC;ECAtB,+DAAM;IAGE,OAAO,EAAE,YAAY",
+"sources": ["../partials/partials-header.scss","../partials/variables.scss","../partials/layout.scss","../scss/sec-new-collection.scss"],
+"names": [],
+"file": "sec-new-collection.css"
+}

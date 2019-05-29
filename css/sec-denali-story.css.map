@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACQ,2FAAmF;ACW3F,UAGC;EAFG,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,uDAAuD;ACRxD,iCAAW;EAEP,UAAU,EAAE,GAAG;ECIxB,yCAAuC;IDEtB,wDAAQ;MAEJ,WAAW,EAAE,CAAC;ECDnC,iEAAuC;IDDtB,wDAAQ;MAMA,WAAW,EAAE,IAAI",
+"sources": ["../partials/partials-header.scss","../partials/variables.scss","../scss/sec-denali-story.scss","../partials/layout.scss"],
+"names": [],
+"file": "sec-denali-story.css"
+}

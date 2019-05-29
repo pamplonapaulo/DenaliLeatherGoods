@@ -1,0 +1,99 @@
+@import '../partials/partials-header';
+
+#carouselStage {
+    
+    transition: .3s all ease;
+    
+    &.item-1 {
+        
+        transform: translateX(0);
+    }
+    
+    &.item-2 {
+        
+        transform: translateX(-100%);
+    }
+    
+    &.item-3 {
+        
+        transform: translateX(-200%);
+    }
+    
+    &.item-4 {
+        
+        transform: translateX(-300%);
+    }
+    
+    &.item-5 {
+        
+        transform: translateX(-400%);
+    }
+    
+    &.item-6 {
+        
+        transform: translateX(-500%);
+    }
+}
+
+#carousel-item-marker {
+    
+    padding: 0 0 3px;
+    margin: 10px 0;
+    background: linear-gradient(to right, 
+        transparent 20%,
+        black 0%,
+        black 60%,
+        black 80%,
+        transparent 80%,
+        transparent 100%
+      );
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat;
+    
+    transition: .3s all ease;
+    
+    &.item-1 {
+        
+        transform: translateX(0);
+    }
+    
+    &.item-2 {
+        
+        transform: translateX(100%);
+    }
+    
+    &.item-3 {
+        
+        transform: translateX(200%);
+    }
+    
+    &.item-4 {
+        
+        transform: translateX(300%);
+    }
+    
+    &.item-5 {
+        
+        transform: translateX(400%);
+    }
+    
+    &.item-6 {
+        
+        transform: translateX(500%);
+    }
+    
+}
+
+#carouselPagination {
+    
+    img {
+        
+        transition: .3s all ease;
+        opacity: .15;
+        
+        &.on {
+            
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import '../partials/partials-header';
+
+.button {
+    
+    &.is-fullwidth {
+        
+        @include MQ(M) {
+            width: 30%;
+            margin: 0 auto;
+            
+            @include MQ(L) {
+                width: 100%;
+                margin: 0;                        
+            }
+        }
+    }
+    
+    .btn-hover-colors {
+        
+        @include MQ(M) {
+            background: rgba(255,255,255,0.2);
+
+            @include MQ(L) {
+                background: transparent;
+            }
+        }
+
+        &:hover {
+
+            background-color: $black!important;
+
+            p {
+
+                color: $white!important;
+            }
+        }
+    }    
+}

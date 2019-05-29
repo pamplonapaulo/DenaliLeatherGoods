@@ -1,0 +1,36 @@
+@import '../partials/partials-header';
+
+header {
+    
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    background: white;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 110px;
+    
+    @include MQ(L) {
+        position: unset;
+        top: unset;
+        z-index: unset;
+        background: unset;
+        margin: unset;
+        padding: unset;
+        width: unset;
+        height: unset;
+    }
+
+    div:first-of-type {
+        
+        p {
+            
+            font-size: 0.65rem!important;
+            
+            @include MQ(L) {
+                font-size: 0.75rem!important;
+            }   
+        }   
+    }    
+}

@@ -1,0 +1,19 @@
+@import '../partials/partials-header';
+
+section {
+    
+    &:last-of-type {
+        
+        .is-one-fifth {
+            
+            @include MQ(M) {
+                
+                display: inline-block;
+
+                @include MQ(L) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

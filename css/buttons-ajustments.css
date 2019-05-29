@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Overpass:400,700&display=swap");
+@font-face {
+  font-family: BlancoTrialBold;
+  src: url("../fonts/BlancoTrial-Bold.otf") format("opentype"); }
+@media only screen and (min-width: 768px) {
+  .button.is-fullwidth {
+    width: 30%;
+    margin: 0 auto; } }
+  @media only screen and (min-width: 768px) and (min-width: 1024px) {
+    .button.is-fullwidth {
+      width: 100%;
+      margin: 0; } }
+
+.button .btn-hover-colors:hover {
+  background-color: #0a0a0a !important; }
+  .button .btn-hover-colors:hover p {
+    color: #ffffff !important; }
+
+/*# sourceMappingURL=buttons-ajustments.css.map */

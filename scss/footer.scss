@@ -1,0 +1,70 @@
+@import '../partials/partials-header';
+
+.input::-webkit-input-placeholder
+{
+        background: $black;
+        color: $white;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+}
+
+.input::placeholder {
+        background: $black;
+        color: $white;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+}
+
+.input:-ms-input-placeholder {
+        background: $black;
+        color: $white;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+}
+
+.input::-ms-input-placeholder {
+        background: $black;
+        color: $white;
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+        padding-left: 15px;
+}
+
+input.input {
+    
+    min-height: 60px;
+    color: $white;
+    font-size: 0.8rem!important;
+    letter-spacing: 1.5px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+
+    
+    &:focus {
+
+        &::placeholder {
+            color: transparent;
+        }
+    }
+}
+
+.control.has-icons-right .input {
+    padding-right: 3.3em;
+}
+
+.copyright {
+        margin-top: 7rem;    
+}
+
+footer.footer {
+    
+    .column .columns .column.is-half .columns {
+        
+        display: inline-flex;
+        
+    }
+}

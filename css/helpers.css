@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Overpass:400,700&display=swap");
+@font-face {
+  font-family: BlancoTrialBold;
+  src: url("../fonts/BlancoTrial-Bold.otf") format("opentype"); }
+.is-transparent-bg {
+  background: transparent; }
+
+.is-full-size-img {
+  max-height: unset !important; }
+
+.some-letter-spacing {
+  letter-spacing: 1.5px; }
+
+.is-squared {
+  border-radius: 0; }
+
+.has-black-border {
+  border-color: #0a0a0a !important; }
+
+.has-topMargin {
+  margin-top: 2rem; }
+
+.has-topMargin-little {
+  margin-top: .7rem; }
+
+.has-padding-bottom-1-rem {
+  padding-bottom: 1rem; }
+
+.has-padding-vetical-tiny {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem; }
+
+.has-padding-vetical-regular {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.has-horizontal-padding {
+  padding-left: 1.7rem;
+  padding-right: 1.7rem; }
+
+.has-margin-bottom-small {
+  padding-bottom: .5rem; }
+
+.has-margin-vertical-medium {
+  margin-top: .7rem;
+  margin-bottom: .7rem; }
+
+.has-vertical-large-margin {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.very-specific-padding {
+  padding-top: 20rem !important;
+  padding-bottom: 20px !important; }
+
+.pointer {
+  cursor: pointer; }
+
+.no-padding-bottom {
+  padding-bottom: 0; }
+
+.has-double-line-height {
+  line-height: 2; }
+
+.is-shape-line {
+  padding: 0 0 1px;
+  margin: 0 0 40px 0;
+  background: linear-gradient(to right, transparent 40%, black 0%, black 40%, black 70%, transparent 70%, transparent 100%);
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat;
+  width: 97%; }
+
+/*# sourceMappingURL=helpers.css.map */

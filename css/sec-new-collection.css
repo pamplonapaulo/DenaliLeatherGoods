@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Overpass:400,700&display=swap");
+@font-face {
+  font-family: BlancoTrialBold;
+  src: url("../fonts/BlancoTrial-Bold.otf") format("opentype"); }
+@media only screen and (min-width: 768px) {
+  section:nth-of-type(3) .container:nth-of-type(2) .columns .is-3 {
+    display: inline-block; } }
+
+/*# sourceMappingURL=sec-new-collection.css.map */

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Overpass:400,700&display=swap");
+@font-face {
+  font-family: BlancoTrialBold;
+  src: url("../fonts/BlancoTrial-Bold.otf") format("opentype"); }
+header {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  background: white;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 110px; }
+  @media only screen and (min-width: 1024px) {
+    header {
+      position: unset;
+      top: unset;
+      z-index: unset;
+      background: unset;
+      margin: unset;
+      padding: unset;
+      width: unset;
+      height: unset; } }
+  header div:first-of-type p {
+    font-size: 0.65rem !important; }
+    @media only screen and (min-width: 1024px) {
+      header div:first-of-type p {
+        font-size: 0.75rem !important; } }
+
+/*# sourceMappingURL=header.css.map */

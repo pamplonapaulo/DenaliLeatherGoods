@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "partials-header.css",
+  "sources": [
+    "partials-header.scss"
+  ],
+  "mappings": "AAEA,OAAO,CAAC,mFAAI",
+  "names": []
+}

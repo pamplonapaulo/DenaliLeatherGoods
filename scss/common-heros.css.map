@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "common-heros.css",
+  "sources": [
+    "common-heros.scss"
+  ],
+  "mappings": "",
+  "names": []
+}

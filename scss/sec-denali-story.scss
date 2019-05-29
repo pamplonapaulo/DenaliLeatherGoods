@@ -1,0 +1,26 @@
+@import '../partials/partials-header';
+
+section {
+    
+    &:nth-of-type(8) {
+        
+        .container {
+                        
+            &:nth-of-type(2) {
+                
+                @include MQ(M) {
+
+                    .button {
+                        
+                        margin-left: 0;
+   
+                        @include MQ(L) {
+                            
+                            margin-left: auto;
+                        }                        
+                    }
+                }                        
+            }
+        }
+    }
+}

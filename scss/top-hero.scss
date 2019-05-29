@@ -1,0 +1,70 @@
+@import '../partials/partials-header';
+
+
+section:first-of-type {
+    
+    height: calc(100vh - 140px);
+    margin-top: 110px;
+
+    @include MQ(L) {
+        margin-top: unset;
+    }
+    
+    &.hero {
+        
+        display: table;
+        
+        @include MQ(L) {
+            display: flex;
+        }
+        
+        .hero-body {
+            
+            vertical-align: middle;
+            display: table-cell;
+            
+            @include MQ(M) {
+                padding: 3rem 20%;
+            }
+            
+            @include MQ(L) {
+                display: block;
+                padding: 18rem 3rem;
+
+            }
+                        
+            h1 {
+                
+                font-size: 2.8rem;
+                
+                @include MQ(L) {
+                    font-size: 3.8rem;
+                }
+            }
+        }   
+    }
+    
+    .container {
+        
+        &.has-topMargin {
+            
+            .columns {
+                
+                .column {
+                    
+                    &.is-5 {
+                        
+                        &:nth-of-type(1) {
+                            
+                            display: none;
+                            
+                            @include MQ(L) {
+                                display: block;
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    } 
+}

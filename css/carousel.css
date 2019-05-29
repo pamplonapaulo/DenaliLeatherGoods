@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Overpass:400,700&display=swap");
+@font-face {
+  font-family: BlancoTrialBold;
+  src: url("../fonts/BlancoTrial-Bold.otf") format("opentype"); }
+#carouselStage {
+  transition: .3s all ease; }
+  #carouselStage.item-1 {
+    transform: translateX(0); }
+  #carouselStage.item-2 {
+    transform: translateX(-100%); }
+  #carouselStage.item-3 {
+    transform: translateX(-200%); }
+  #carouselStage.item-4 {
+    transform: translateX(-300%); }
+  #carouselStage.item-5 {
+    transform: translateX(-400%); }
+  #carouselStage.item-6 {
+    transform: translateX(-500%); }
+
+#carousel-item-marker {
+  padding: 0 0 3px;
+  margin: 10px 0;
+  background: linear-gradient(to right, transparent 20%, black 0%, black 60%, black 80%, transparent 80%, transparent 100%);
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat;
+  transition: .3s all ease; }
+  #carousel-item-marker.item-1 {
+    transform: translateX(0); }
+  #carousel-item-marker.item-2 {
+    transform: translateX(100%); }
+  #carousel-item-marker.item-3 {
+    transform: translateX(200%); }
+  #carousel-item-marker.item-4 {
+    transform: translateX(300%); }
+  #carousel-item-marker.item-5 {
+    transform: translateX(400%); }
+  #carousel-item-marker.item-6 {
+    transform: translateX(500%); }
+
+#carouselPagination img {
+  transition: .3s all ease;
+  opacity: .15; }
+  #carouselPagination img.on {
+    opacity: 1; }
+
+/*# sourceMappingURL=carousel.css.map */
